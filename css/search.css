@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(lemon.otf);
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+
+.sectiune{
+    min-height: 100%;
+}
+
+.button_select{
+    width: 100%;
+    border-left:10px solid #F4EBD0;
+    transition: all 0.7s;
+}
+
+.per_judet{
+    width: 100%;
+    border-left:10px solid #F4EBD0;
+}
+
+.buton_telefon{
+    background-color:#056900;
+    border-radius:3px;
+    transition: all 0.7s;
+}
+
+.buton_telefon:hover{
+    background-color: #033b01;
+}
+
+.button_select:hover{
+    border-left: 10px solid #D6AD60;
+}
+
+  
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #F4EBD0; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #122620; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #D6AD60; 
+}

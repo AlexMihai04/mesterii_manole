@@ -1,0 +1,65 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(lemon.otf);
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+
+.sectiune{
+    min-height: 100%;
+    margin-bottom: 12px;
+}
+
+.judet_neselectat{
+    border-left:5px solid #F2CC8F !important;
+}
+
+.judet_selectat{
+    border-left:7px solid #F2CC8F !important;
+    background-color: #ebf2f7;
+    color:black;
+}
+
+
+.sectiune_home {
+    background-image: url(../poze/2maro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #F4EBD0; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #122620; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #D6AD60; 
+}
+
+
+.center_test {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
